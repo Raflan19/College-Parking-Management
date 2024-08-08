@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(1, 1, 78);
+}
+.header{
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+   /* text-align: center; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* overflow: auto; */
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+.logoname{
+    margin-left: 10px;
+}
+
+.pelogo{
+    width: 100px;
+}
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+.logsignup{
+    margin-right: 10px;
+}
+.logsignup a,.logsignup span{
+    text-decoration: none;
+    font-size: 18px;
+    color: darkblue;
+    display: inline-block;
+}
+
+.logsignup button{
+    color: white;
+    background-color: darkblue;
+    border: 1px;
+    padding: 10px 14px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.logsignup button a{
+    color: white;
+    font-size: 14px;
+}
+
+.history-table {
+    margin: 40px auto;
+    /* height: 500px; */
+    width: 80%;
+    /* background-color: white; */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.history-table h2 {
+    margin-bottom: 10px;
+    color: black;
+    font-size: 24px;
+}
+
+.history-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.history-table th,
+.history-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.history-table th {
+    background-color: green;
+    font-weight: bold;
+    color: white;
+    margin-left: -10px;
+}
+
+.history-table td {
+    background-color: whitesmoke;
+    font-weight: bold;
+    color: black;
+}
+
+
+.status-booked {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.status-cancelled {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.status-pending {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+   /* text-align: center; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* overflow: auto; */
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+body{
+    /* min-width: 100vw; */
+    height: 600px;
+    background-color: rgb(3, 3, 76);
+}
+
+.logoname{
+    margin-left: 10px;
+}
+
+.pelogo{
+    width: 100px;
+}
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+.logsignup{
+    margin-right: 10px;
+}
+.logsignup a,.logsignup span{
+    text-decoration: none;
+    font-size: 18px;
+    color: darkblue;
+    display: inline-block;
+}
+
+.logsignup button{
+    color: white;
+    background-color: darkblue;
+    border: 1px;
+    padding: 10px 14px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+
+.logsignup button a{
+    color: white;
+    font-size: 14px;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftside{
+    flex-basis: 50%;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    max-width: 500px;
+    /* margin: auto; */
+    margin-left: 50px;
+    padding: 30px 5px;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-bottom: none;
+    color: white;
+    font-weight: bold;
+}
+
+.head i {
+    font-size: 24px; /* Adjust the font size of the car icon */
+    color: white; /* Change the color of the car icon */ /* Add some left margin to create space between the icon and the border */
+}
+
+#caricon{
+}
+
+#bikeicon{
+  text-align: right;
+}
+
+.container {
+    max-width: 500px;
+    overflow: auto;
+    /* margin: auto; */
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    border-top: none;
+    background-color: lightgrey;
+    padding:40px 0;
+    /* background-image: url('../images/roadlines.jpg');
+    background-size: cover;
+    background-position: center; */
+}
+
+.flex1{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+
+.flex2{
+    width: 50%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+.item {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;  */
+}
+
+
+
+.square { 
+    position: relative;
+    display: flex;
+    width: 60px;
+    height: 45px;
+    background-color: rgb(2, 192, 2);
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.square:last-child {
+    margin-bottom: 0; /* Remove margin-bottom for the last square */
+}
+
+
+
+.rightside{
+    box-shadow: 2px 2px 25px 10px rgba(0, 0, 0, 0.1);
+    flex-basis: 50%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    max-width: 500px;
+    height: 430px;
+    margin-top: 30px;
+    margin-right: 50px;
+    line-height: 50px;
+}
+
+.rightside h4{
+    text-align: center;
+    font-size: 28px;
+}
+
+.forminputs{
+    display: flex;
+    align-items: center;
+    margin:20px 0;
+    height: 45px;
+}
+
+label{
+    font-weight: bold;
+    /* margin-right: 10px; */
+    width: 150px;
+}
+
+input{
+    margin-left: 22px;
+    width: calc(100% - 150px - 20px);
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid gray;
+    outline: none;
+    padding-left: 20px;
+}
+.btn{
+   color: white;
+   font-weight: bold;
+   background-color: black;  
+   border: none;
+   width: 100px;
+   padding: 20px 30px;
+   margin-left: 170px;
+   margin-bottom: 30px;
+   margin-top: 20px;
+   border-radius: 50px;
+   cursor: pointer;
+}
+
+.newuser{
+    font-size: 14px;
+    margin-left: 32px;
+    color: black;
+}
+
+.newuser a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+select{
+    margin-left: 22px;
+    width: calc(100% - 150px - 20px);
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid gray;
+    outline: none;
+    padding-left: 20px;
+}
+
+
+/* @media (max-width: 768px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+} */
