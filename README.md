@@ -6,7 +6,7 @@ This project is a web-based application designed to manage parking space reserva
 
 ## Features
 
-### User Module:
+<u>### User Module:</u>
 • **User Authentication**: Secure login system to ensure only authorized users can access the platform.
 
 • **Dynamic Parking Map**: Visual representation of the parking area with real-time updates. Available spots are marked in green, and reserved spots in red.
@@ -15,7 +15,7 @@ This project is a web-based application designed to manage parking space reserva
 
 • **Booking History**: Access to a history of past reservations, with the option to cancel upcoming reservations if plans change.
 
-### Admin Module:
+<u>### Admin Module:</u>
 • **User Management**: Admins can add, remove, and manage user accounts, maintaining the security and accessibility of the system.
 
 • **Reservation Management**: Admins have the ability to oversee and manage all reservations, ensuring the system operates smoothly.
