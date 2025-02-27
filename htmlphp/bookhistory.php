@@ -26,8 +26,8 @@
         <nav class="links">
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="parkmap.php">Park-map</a></li>
-                <li><a href="bookhistory.php">Your-slots</a></li>
+                <li><a href="parkmap.php">Parkmap</a></li>
+                <li><a href="bookhistory.php">Booking</a></li>
             </ul>
         </nav>
         <div class="logsignup" id="logsignup">
