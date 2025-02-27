@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h3>ParkEasy.</h3>
+    </div>
+    <div class="main">
+        <div class="loginmain">
+            <h4>Login</h4>
+            <div id="errormsg">
+                Invalid username or password.
+            </div>
+             <form action="login.php" method="post" id="logform">
+                <div class="forminputs">
+                    <input type="text" name="username" id="username" placeholder="Username" required><br>
+                </div>
+                
+                <div class="forminputs">
+                    <input type="password" name="pass" id="pass" placeholder="Password" required><br>
+                </div>
+
+                <div class="logbutton">
+                    <button class="btn" name="Login">Login</button>
+                </div>
+            <span class="newuser">Don't have an account? <a href="../htmlphp/signup.html">SignUp</a></span>
+        </form>
+        </div>
+    </div>
+    <script src="../js/login.js"></script>
+</body>
+</html>
+
