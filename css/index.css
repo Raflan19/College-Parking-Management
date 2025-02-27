@@ -79,7 +79,7 @@ nav ul li a{
     /* height: 100%; */
     background-size: cover; 
     background-position: center;
-     min-height: 90vh; 
+     height: 508px; 
     overflow: auto;  
     flex-basis: 35%;
     margin-left: 60px;
