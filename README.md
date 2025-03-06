@@ -25,4 +25,6 @@ This project is a web-based application designed to manage parking space reserva
 ## Technologies Used:
 • **FrontEnd**: HTML, CSS, JS
 
-• **BackEnd**: PHP, MySQL
+• **BackEnd**: PHP
+
+• **Database**: MySQL
